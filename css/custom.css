@@ -1,0 +1,248 @@
+@font-face
+{
+	font-family: 'Open Sans';
+	src: url('OpenSans-Regular.ttf');
+}
+body{
+	font-family: 'Open Sans' !important;
+    background: url("../img/halftone.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.bold{
+	font-weight:bold;
+}
+.home_menu{
+	margin-top:50px;
+}
+.table_div{
+	height:500px;
+	overflow:auto;
+}
+.thumbnail{
+	border-radius:0px !important;
+}
+.color_blue{
+	color:#0D42A5 !important;
+}
+.capital{
+	text-transform:uppercase !important;
+}
+.main_con{
+	margin-top:10px;
+}
+.bold{font-weight:bold !important; }
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+	border:1px solid #82827B !important;
+}
+table.table-bordered.dataTable {
+    border-collapse: collapse !important;
+}
+th{
+  background:#B4CDE8 !important;
+}
+.heading_grey{
+	width:100%;
+	padding:10px;
+	background:#555;
+	color:#fff;
+	margin-bottom:10px;
+}
+.scroll_div{
+	height:600px !important;
+	overflow:auto;
+}
+.annual_graph_bg{
+	background:#FCFCC2 !important;
+	margin-bottom:10px;
+}
+.table p{
+	margin:0px;
+}
+.color_black{
+	color:#000;
+	font-weight:bold;
+	font-size:14px;
+}
+.footer_img{
+	width:100%;
+	height:90px;
+	margin-bottom:10px;
+}
+.banner_img{
+	width:100%;
+	height:140px;
+	margin-bottom:10px;
+}
+#annual_graph1 , #annual_graph2 {
+	width	: 100%;
+	height	: 300px;
+}	
+#annual_graph1  a , #annual_graph2 a  {
+	 	display:none !important; 
+}
+
+
+#graph , #graph {
+	width		: 100%;
+	height		: 300px;
+	font-size	: 11px;
+}		
+#graph  a , #graph a  {
+	 display:none !important;  
+}
+#graph  tspan ,#graph tspan{
+		font-size:10px;
+}
+#graph .amChartsLegend{
+	display:none !important; 
+}
+.no_padding{
+	padding:0px;
+}
+.no_margin{
+	margin:0px !important;
+}
+.panel_menu{
+	padding:5px;
+}
+.panel-heading,.modal-header{
+	background:#356AA0 !important;
+	color:#fff !important;
+}
+.right{text-align:right;}
+.bg_red{background:#D62020;}
+.color_red{ color:#D62020;}
+.hr{ margin:5px !important; }
+.center{ text-align:center !important; }
+.sidebar_nav li{ 
+	border:1px solid #4f4f4f;
+	border-radius:8px; 
+	background:#555;
+ }
+ .sidebar_nav li a{ 
+  color:#fff;
+ }
+.gp_hov li a:hover{ 
+	color:#fff;
+	background:#29568f;
+}
+ 
+.pe_hov li a:hover{
+	color:#fff;
+	background:#356244;
+ }
+  
+.sb_hov li a:hover{
+	color:#fff;
+	background:#8B3A3A;
+ }
+ 
+.ga_hov li a:hover{
+	color:#fff;
+	background:#7B7922;
+}
+ 
+.pm_hov li a:hover{
+	color:#fff;
+	background:#B13E0F;
+}
+.ab_hov li a:hover{
+	color:#fff;
+	background:#5C246E	;
+}
+
+
+.color_yellow{ color:#E9F416 !important;}
+input,select { font-size: 16px !important; }
+.color_white{color:#fff !important }
+/* calendar */
+.responsive-calendar .day {
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+	width: 14.285714285714286%;
+	text-align: center;
+	border: 1px solid;
+}
+.responsive-calendar .day.active a {
+	background-color: #f2c054 !important;
+	color: #000 !important;
+	z-index:999999 !important; 
+}
+.controls.calendar_button {
+    margin-bottom: 20px;
+}
+ /* end calendar  */
+.gppb_lib_div{
+	height:600px;
+	overflow:auto;
+} 
+ /* blink */
+ .blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+ /* end blink */
+ 
+/*  highlight */
+ #searchtext span, #searchtext1 span {
+background-color: #FF9;
+color: #555;
+}
+/* end highlight */
+
+/*  */
+#typed{
+	width:100%;
+}
+/*  banner */
+.header_banner{
+	width:100% !important;
+	height:110px !important;
+}
+.footer_banner{
+	width:100% !important;
+	height:80px !important;
+	margin-bottom:10px;
+}
+
+/* end banner  */
+/* panel */
+.panel{
+	margin-bottom:10px;
+}
+/* end panel  */
